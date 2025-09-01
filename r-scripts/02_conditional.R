@@ -15,3 +15,12 @@ sepal_length <- mean(iris$Sepal.Length)
 if (sepal_length > 5) {
   cat("The average sepal length is greater than 5\n")
 }
+
+
+cat("Step 4: If-Else Function", "\n")
+if petal_length <- mean(iris$Petal.Length)
+if (petal_length > 4) {
+  cat("The average petal length is large\n")
+} else {
+  cat("The average petal length is small\n")
+}
