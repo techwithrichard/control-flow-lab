@@ -34,3 +34,10 @@ if (sepal_length > 6) {
   cat("The average sepal length is small\n")
 }
 cat("end of if-else if-else", "\n")
+
+
+
+cat("Introducing errors on purpose", "\n" )
+cat("\n3. Vectorized ifelse() function:\n")
+# This will cause an error - variable name typo
+iris$Size_Category <- ifelse(iris$Sepal.Lenth > 5.5, "Large", "Small") # ERROR: 'Sepal.Lenth'
