@@ -9,8 +9,7 @@ library(here)
 #reading thee data
 # own_data <- read_csv(here("data", "own_dataset.csv"))
 
-# defaul datasets in R
-# data("mtcars")
+# defaul datasets in R -> like data("mtcars"), data*("iris") etc
 
 cat("Step 1 : Loading mtcars dataset", "\n")
 data("mtcars")
