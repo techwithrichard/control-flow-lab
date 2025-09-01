@@ -24,3 +24,13 @@ if (petal_length > 4) {
 } else {
   cat("The average petal length is small\n")
 }
+
+cat("Step 5: If-Else If-Else Function", "\n")
+if (sepal_length > 6) {
+  cat("The average sepal length is very large\n")
+} else if (sepal_length > 5) {
+  cat("The average sepal length is large\n")
+} else {
+  cat("The average sepal length is small\n")
+}
+cat("end of if-else if-else", "\n")
